@@ -326,8 +326,8 @@ public class StuManagePanel extends JPanel implements ActionListener {
 				request.addIds(null);
 				request.addIds(null);
 				request.addParams(Integer.parseInt(stuID));
-				request.addParams(email);
 				request.addParams(stuName);
+				request.addParams(email);
 				request.addParams(buId);
 				request.addParams(Double.parseDouble(grade));
 				request.addParams(Double.parseDouble(adjust));

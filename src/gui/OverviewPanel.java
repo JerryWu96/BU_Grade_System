@@ -254,24 +254,8 @@ public class OverviewPanel extends JPanel implements ActionListener {
 		
 	}
 	
-	/**
-	 * Method: getAllCate
-	 * */
-	
-	/**
-	 * Method: getAllAssignmentFromAllCate
-	 * */
-	
 	@Override
 	public void actionPerformed(ActionEvent event) {
-
-		if( event.getActionCommand().equals("Curve") ) {
-			
-		}
-		
-		if( event.getActionCommand().equals("Save") ) {
-			// TODO: save comment
-		}
 		
 		if( event.getActionCommand().equals("Add Submission") ) {
 			

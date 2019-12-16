@@ -274,7 +274,7 @@ public class SystemPortal {
         student.setBuId((String) params.get(3)); // buId
         student.setGrade((Double) params.get(4)); // grade
         student.setAdjustment((Double) params.get(5)); // adjustment
-        student.setAdjustment((Double) params.get(6)); // bonus
+        student.setBonus((Double) params.get(6)); // bonus
         student.setGrad((Boolean) params.get(7)); // isGrad
         student.setGrad((Boolean) params.get(8)); // withdrawn
         student.setComment((String) params.get(9)); // comment
