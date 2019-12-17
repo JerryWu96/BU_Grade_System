@@ -167,7 +167,7 @@ public class CoursePanel extends JPanel implements ActionListener {
         
         int hButtonX = tableScrollPane.getX();
         int hButtonY = tableScrollPane.getY() + tableScrollPane.getHeight() + vGap;
-        JButton stuOverview = new JButton("Student Overview");
+        JButton stuOverview = new JButton("Grade Overview");
         stuOverview.setBounds(hButtonX, hButtonY, (int) (buttonWidth * 1.7), textHeight);
         add(stuOverview);
         stuOverview.addActionListener(this);
@@ -329,7 +329,7 @@ public class CoursePanel extends JPanel implements ActionListener {
 			}
 		}
 		
-		if( event.getActionCommand().equals("Student Overview") ) {
+		if( event.getActionCommand().equals("Grade Overview") ) {
 			MainFrame.getInstance().removeCurPanel();
 			MainFrame.getInstance().setOverviewPanel();
 		}
