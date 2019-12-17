@@ -90,9 +90,9 @@ public class OverviewPanel extends JPanel implements ActionListener {
 		int hGap = 50;
 		int vGap = 50;
 		
-		lblTitle = new JLabel("Student Overview");
+		lblTitle = new JLabel("Grade Overview in CS591");
 		lblTitle.setFont(titleFont);
-		lblTitle.setBounds(x, y, 200, 25);
+		lblTitle.setBounds(x, y, 300, 25);
 		add(lblTitle);
 		
 		createStuViewTable();
@@ -110,8 +110,8 @@ public class OverviewPanel extends JPanel implements ActionListener {
 			}
 		});
 		
-		JLabel cateNameLabel = new JLabel("Category: Homework/Project");
-		cateNameLabel.setBounds(x, scrollPane.getY() + scrollPane.getHeight() + 10, 200, textHeight);
+		JLabel cateNameLabel = new JLabel("Category: Homework/Project ... ");
+		cateNameLabel.setBounds(x, scrollPane.getY() + scrollPane.getHeight() + 10, 300, textHeight);
 		cateNameLabel.setFont(labelFont);
 		add(cateNameLabel);
 		
